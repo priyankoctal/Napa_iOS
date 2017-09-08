@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FFF12B860F1FB3C5CD6663223D71E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF2B1BFF7DF3999B56684866028DC0 /* Notifications.swift */; };
+		12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E57D39FC057F53F9382FFE1178E1EBF /* Request.swift */; };
+		1755372277B0CF97F1CC59EAE9AA28DD /* Pods-NAPA BILLINGUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9269410419136EDD1D02FDEF5602EA /* Pods-NAPA BILLINGUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2853B36F1955E28C6666D07B43E981BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B528C26DFFBF2D2FC2B4089091393 /* Timeline.swift */; };
+		47811A0C77F054DF6379672745ABCB0E /* Pods-NAPA BILLING-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF7B8033270F88861274B29C7D789A9 /* Pods-NAPA BILLING-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5371089264CFF87C7DF2AA2845A2AB89 /* SideMenuController+SideUnder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981129CA9830266D610B3ED121EDF108 /* SideMenuController+SideUnder.swift */; };
+		5CA57BCE8FF5875B81C1D70ED257F6E7 /* SideMenuController+SideOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026C222D11E586E21FBE81805081922 /* SideMenuController+SideOver.swift */; };
+		5F1F216BB0867E196AC70F60A12938EF /* SideContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE93428515A1677E78F01657A343E4D2 /* SideContainmentSegue.swift */; };
+		62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C94B7E9BFAE2A07B497FB3EF43F9BC /* AFError.swift */; };
+		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACACBBA08843C8621A3DAF8A44D8CE /* Alamofire.swift */; };
+		84E730588B762ADF345FBBA3EB7B509C /* CenterContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AE0187058B40BF8B4DE3901A4FA6E /* CenterContainmentSegue.swift */; };
+		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B94ABCDB1DF4E11D7AA0B35BF196D0 /* Response.swift */; };
+		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BB04C301C7BA41EF57CF2AA6D4CB9 /* Alamofire-dummy.m */; };
+		8E5BEC399521C871B30ECDB7420F42D7 /* Pods-NAPA BILLINGUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E463595D47C710A169795FAF98E4AC /* Pods-NAPA BILLINGUITests-dummy.m */; };
+		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F63A5C154B9F1A9E1148D7D4A6D4A7 /* SessionDelegate.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		92A67E068A7416D5EC784EEDE21734BB /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0579644A7D752221717727F45A936F35 /* UIKitExtensions.swift */; };
+		940D81E48C408A7C48EC266A6A568F40 /* Pods-NAPA BILLING-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 888AEACEC50DE5C0793EC786C5F37E9F /* Pods-NAPA BILLING-dummy.m */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31424FCE7FA24B0956E848D6B988C67 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2190E01472E6CAD06B56A106383F73A /* Pods-NAPA BILLINGTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78859F91649325016C93DE2311E2177F /* Pods-NAPA BILLINGTests-dummy.m */; };
+		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A2C931FCC3CB83DBD6C6880A5EC161 /* SessionManager.swift */; };
+		ADB9BF4491A232E92D5900D832D681F6 /* SideMenuController+CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF69522C729ED4DD8DE7046C459094 /* SideMenuController+CustomTypes.swift */; };
+		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880C0D4C7CA9E267297CA555ADC8F3B /* ParameterEncoding.swift */; };
+		B011BA89FDC7B818C0C524F26BF9167B /* SideMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F305AF42CCC23F9C3607583A3B13EC24 /* SideMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920F691804E43BA523EC8516C6DDEBB /* ResponseSerialization.swift */; };
+		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805B1D08E6F3490045DB41BD3D7887B /* ServerTrustPolicy.swift */; };
+		C7953959C9D75EA289433F85C7850114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DEF059059E788829584DFC6A203BBB /* MultipartFormData.swift */; };
+		C9A3F49FC1EC360E959E0FA72B61512D /* Pods-NAPA BILLINGTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F947D5901A162898B433D3028A735659 /* Pods-NAPA BILLINGTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC52169F7E952919706AB8D24F275E8B /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D88CB4157641114ED2E833CDE111C /* SideMenuController.swift */; };
+		D02A3E1AE5328F8917E0CC937C883AE1 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C13DD1BAB810D4029486F12CBEE16 /* TransitionAnimator.swift */; };
+		DA113372DAFF2D3E2F153987D54051BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F02792DB4D8344246365AE50E593C /* Result.swift */; };
+		E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B506C98D94E4D8DA02AB0736AFD1C8F /* TaskDelegate.swift */; };
+		E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C95B676ED1B36C2A04BA59BE7BF3D /* DispatchQueue+Alamofire.swift */; };
+		E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49009958D596B03FFA7941888905692F /* NetworkReachabilityManager.swift */; };
+		E8F016D2866921DB98292D074FE8C1A7 /* SideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA40888D1DE481417D09C838EC259E7 /* SideMenuController-dummy.m */; };
+		FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5FBBA8021A922B924A7B203FA72EF1 /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A769303718539DEEE69C1DC2B03D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		D28AC440D1EFB819C127E635747A406A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E775923A6EDEF7BFD8397D3678AE79B;
+			remoteInfo = SideMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F63A5C154B9F1A9E1148D7D4A6D4A7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		0579644A7D752221717727F45A936F35 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
+		073BBBFE184D060E472E415FB11DF92E /* SideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		0E3C95B676ED1B36C2A04BA59BE7BF3D /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		0F2B73E03534C3C6F85683DB61B44445 /* Pods-NAPA BILLING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLING.release.xcconfig"; sourceTree = "<group>"; };
+		117433C343DEB156239381F4D6860A4C /* Pods-NAPA BILLINGUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NAPA BILLINGUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FF7B8033270F88861274B29C7D789A9 /* Pods-NAPA BILLING-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NAPA BILLING-umbrella.h"; sourceTree = "<group>"; };
+		2846FA3CAA0BADC4B421ABC0D4100E12 /* Pods-NAPA BILLING-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NAPA BILLING-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BD3154F2768DDA132CD13ACD049FFAE /* Pods-NAPA BILLING.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLING.debug.xcconfig"; sourceTree = "<group>"; };
+		2E57D39FC057F53F9382FFE1178E1EBF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2F7C7EC110AA8DE13FA1EB1F36185E16 /* Pods-NAPA BILLINGUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLINGUITests-resources.sh"; sourceTree = "<group>"; };
+		3076AC19F4543E368FBC18302781A1EF /* Pods_NAPA_BILLINGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAPA_BILLINGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375BB04C301C7BA41EF57CF2AA6D4CB9 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		38A2C931FCC3CB83DBD6C6880A5EC161 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		4079FC9BC81BA4F2915FC02AA00D6846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47434A9E73F367A37970B1CF4A2E50A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483D88CB4157641114ED2E833CDE111C /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = Source/SideMenuController.swift; sourceTree = "<group>"; };
+		49009958D596B03FFA7941888905692F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4C0B528C26DFFBF2D2FC2B4089091393 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		5605E659DFD7433259EAB9ED1F9BD232 /* Pods-NAPA BILLINGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLINGTests.release.xcconfig"; sourceTree = "<group>"; };
+		56EC38D4914F99D773417EC543BF8784 /* Pods-NAPA BILLINGUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLINGUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5B506C98D94E4D8DA02AB0736AFD1C8F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		5BB87D02A07465E7E171B5158B112CF0 /* Pods-NAPA BILLINGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLINGTests.debug.xcconfig"; sourceTree = "<group>"; };
+		631EC65E9B910B7A6DAC29607EBBCF7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA91D5129DA1C0A7DD3B0A786688B4C /* SideMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuController.xcconfig; sourceTree = "<group>"; };
+		6B7AB7620E7A2C031A9D8F700FE2EEB3 /* Pods-NAPA BILLING-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLING-resources.sh"; sourceTree = "<group>"; };
+		6C2399DB074932007E2672D19D286643 /* Pods-NAPA BILLING-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLING-frameworks.sh"; sourceTree = "<group>"; };
+		73DAF71144AC068EF75134E4AFA557A1 /* Pods-NAPA BILLINGUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NAPA BILLINGUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		775A4604A8459AA3FA17A16F03974432 /* Pods-NAPA BILLING.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NAPA BILLING.modulemap"; sourceTree = "<group>"; };
+		78859F91649325016C93DE2311E2177F /* Pods-NAPA BILLINGTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NAPA BILLINGTests-dummy.m"; sourceTree = "<group>"; };
+		80C94B7E9BFAE2A07B497FB3EF43F9BC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		828D39A48FC2FD8DB417556D253C9A56 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8430D018A9395DDC9E8FC258AA296946 /* Pods-NAPA BILLINGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLINGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8541FCE41E2AB18B5649E3C2DA076487 /* Pods-NAPA BILLING-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NAPA BILLING-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8805B1D08E6F3490045DB41BD3D7887B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		888AEACEC50DE5C0793EC786C5F37E9F /* Pods-NAPA BILLING-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NAPA BILLING-dummy.m"; sourceTree = "<group>"; };
+		88DD1FD75853C4763F1CE25AA9F51638 /* Pods_NAPA_BILLING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAPA_BILLING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8947F0CE940FE33E2C97D270D798D109 /* Pods_NAPA_BILLINGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAPA_BILLINGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ABA0E530094A21CEC9536927B1EC87 /* Pods-NAPA BILLINGTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NAPA BILLINGTests.modulemap"; sourceTree = "<group>"; };
+		8A3AE0187058B40BF8B4DE3901A4FA6E /* CenterContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterContainmentSegue.swift; path = Source/CenterContainmentSegue.swift; sourceTree = "<group>"; };
+		8B4F02792DB4D8344246365AE50E593C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		91D8A3E2C20E24239B5DB3532F91A8BC /* Pods-NAPA BILLINGTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NAPA BILLINGTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94CF69522C729ED4DD8DE7046C459094 /* SideMenuController+CustomTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+CustomTypes.swift"; path = "Source/SideMenuController+CustomTypes.swift"; sourceTree = "<group>"; };
+		981129CA9830266D610B3ED121EDF108 /* SideMenuController+SideUnder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideUnder.swift"; path = "Source/SideMenuController+SideUnder.swift"; sourceTree = "<group>"; };
+		9D2A1F90077F1B20C2160337CAD3D284 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		9EA40888D1DE481417D09C838EC259E7 /* SideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuController-dummy.m"; sourceTree = "<group>"; };
+		A02CAD6D0F3823C3A3FEB97EEF776D2F /* Pods-NAPA BILLINGTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLINGTests-resources.sh"; sourceTree = "<group>"; };
+		A52B8594C01AC04CC32B5C93B6C8D32B /* Pods-NAPA BILLINGTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NAPA BILLINGTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A920F691804E43BA523EC8516C6DDEBB /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B1E463595D47C710A169795FAF98E4AC /* Pods-NAPA BILLINGUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NAPA BILLINGUITests-dummy.m"; sourceTree = "<group>"; };
+		BB14BCBC8845519DE07B3E865DFA20D1 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		BC60AF73246FCAEBD9D56F00994965E7 /* Pods-NAPA BILLINGTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NAPA BILLINGTests-frameworks.sh"; sourceTree = "<group>"; };
+		BF9269410419136EDD1D02FDEF5602EA /* Pods-NAPA BILLINGUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NAPA BILLINGUITests-umbrella.h"; sourceTree = "<group>"; };
+		C026C222D11E586E21FBE81805081922 /* SideMenuController+SideOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideOver.swift"; path = "Source/SideMenuController+SideOver.swift"; sourceTree = "<group>"; };
+		CC5FBBA8021A922B924A7B203FA72EF1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D019ED6E5A1DC2A0F71B133EBFB528E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31424FCE7FA24B0956E848D6B988C67 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D7DEF059059E788829584DFC6A203BBB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D9CECEB7A259C21F9AE8AC84B6C687E0 /* SideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2E3E88230C5EADC5E0F44402EE8FE7 /* Pods-NAPA BILLINGUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NAPA BILLINGUITests.modulemap"; sourceTree = "<group>"; };
+		DE93428515A1677E78F01657A343E4D2 /* SideContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideContainmentSegue.swift; path = Source/SideContainmentSegue.swift; sourceTree = "<group>"; };
+		E1B94ABCDB1DF4E11D7AA0B35BF196D0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		E880C0D4C7CA9E267297CA555ADC8F3B /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		ED1F8431D8F15F851EF511456305BC89 /* Pods-NAPA BILLINGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NAPA BILLINGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FF2B1BFF7DF3999B56684866028DC0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		F2BC23D1555CF897B1E2C2A9E3C68D91 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F305AF42CCC23F9C3607583A3B13EC24 /* SideMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-umbrella.h"; sourceTree = "<group>"; };
+		F809F02621B3DFF54129AD40EF87D55E /* SideMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SideMenuController.modulemap; sourceTree = "<group>"; };
+		F947D5901A162898B433D3028A735659 /* Pods-NAPA BILLINGTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NAPA BILLINGTests-umbrella.h"; sourceTree = "<group>"; };
+		FA1C13DD1BAB810D4029486F12CBEE16 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = "<group>"; };
+		FB4FF6564FA50CC23DF0AEA9399C7C54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCACACBBA08843C8621A3DAF8A44D8CE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545E966D9B9347DE55349868326738BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA113372DAFF2D3E2F153987D54051BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C36F322369B0B360772888057454D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2853B36F1955E28C6666D07B43E981BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7982208D0E8AE0250D7434961AA7230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFF12B860F1FB3C5CD6663223D71E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14A5B70F5E7C70E9E91A6425ED0B2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7953959C9D75EA289433F85C7850114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0245293414768D75CEA11767FFB192A8 /* Pods-NAPA BILLINGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4FF6564FA50CC23DF0AEA9399C7C54 /* Info.plist */,
+				DC2E3E88230C5EADC5E0F44402EE8FE7 /* Pods-NAPA BILLINGUITests.modulemap */,
+				73DAF71144AC068EF75134E4AFA557A1 /* Pods-NAPA BILLINGUITests-acknowledgements.markdown */,
+				117433C343DEB156239381F4D6860A4C /* Pods-NAPA BILLINGUITests-acknowledgements.plist */,
+				B1E463595D47C710A169795FAF98E4AC /* Pods-NAPA BILLINGUITests-dummy.m */,
+				56EC38D4914F99D773417EC543BF8784 /* Pods-NAPA BILLINGUITests-frameworks.sh */,
+				2F7C7EC110AA8DE13FA1EB1F36185E16 /* Pods-NAPA BILLINGUITests-resources.sh */,
+				BF9269410419136EDD1D02FDEF5602EA /* Pods-NAPA BILLINGUITests-umbrella.h */,
+				ED1F8431D8F15F851EF511456305BC89 /* Pods-NAPA BILLINGUITests.debug.xcconfig */,
+				8430D018A9395DDC9E8FC258AA296946 /* Pods-NAPA BILLINGUITests.release.xcconfig */,
+			);
+			name = "Pods-NAPA BILLINGUITests";
+			path = "Target Support Files/Pods-NAPA BILLINGUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B1678508C7B887DBBCF50FA535C9F54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB464DED0DD2CEC64BA8E1623CC1106E /* Pods-NAPA BILLING */,
+				B200BF3FA523313D9C38B62AAD9C7FAD /* Pods-NAPA BILLINGTests */,
+				0245293414768D75CEA11767FFB192A8 /* Pods-NAPA BILLINGUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DCACF4066D80C82D80D35666D5CD4D1F /* Pods */,
+				D8824E82DC8228088B51D585FE596C06 /* Products */,
+				7B1678508C7B887DBBCF50FA535C9F54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A30FAF3AEE5F19EAFA6928903D282531 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A1F90077F1B20C2160337CAD3D284 /* Alamofire.modulemap */,
+				BB14BCBC8845519DE07B3E865DFA20D1 /* Alamofire.xcconfig */,
+				375BB04C301C7BA41EF57CF2AA6D4CB9 /* Alamofire-dummy.m */,
+				F2BC23D1555CF897B1E2C2A9E3C68D91 /* Alamofire-prefix.pch */,
+				D31424FCE7FA24B0956E848D6B988C67 /* Alamofire-umbrella.h */,
+				631EC65E9B910B7A6DAC29607EBBCF7A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		AB464DED0DD2CEC64BA8E1623CC1106E /* Pods-NAPA BILLING */ = {
+			isa = PBXGroup;
+			children = (
+				D019ED6E5A1DC2A0F71B133EBFB528E1 /* Info.plist */,
+				775A4604A8459AA3FA17A16F03974432 /* Pods-NAPA BILLING.modulemap */,
+				8541FCE41E2AB18B5649E3C2DA076487 /* Pods-NAPA BILLING-acknowledgements.markdown */,
+				2846FA3CAA0BADC4B421ABC0D4100E12 /* Pods-NAPA BILLING-acknowledgements.plist */,
+				888AEACEC50DE5C0793EC786C5F37E9F /* Pods-NAPA BILLING-dummy.m */,
+				6C2399DB074932007E2672D19D286643 /* Pods-NAPA BILLING-frameworks.sh */,
+				6B7AB7620E7A2C031A9D8F700FE2EEB3 /* Pods-NAPA BILLING-resources.sh */,
+				1FF7B8033270F88861274B29C7D789A9 /* Pods-NAPA BILLING-umbrella.h */,
+				2BD3154F2768DDA132CD13ACD049FFAE /* Pods-NAPA BILLING.debug.xcconfig */,
+				0F2B73E03534C3C6F85683DB61B44445 /* Pods-NAPA BILLING.release.xcconfig */,
+			);
+			name = "Pods-NAPA BILLING";
+			path = "Target Support Files/Pods-NAPA BILLING";
+			sourceTree = "<group>";
+		};
+		B200BF3FA523313D9C38B62AAD9C7FAD /* Pods-NAPA BILLINGTests */ = {
+			isa = PBXGroup;
+			children = (
+				4079FC9BC81BA4F2915FC02AA00D6846 /* Info.plist */,
+				89ABA0E530094A21CEC9536927B1EC87 /* Pods-NAPA BILLINGTests.modulemap */,
+				91D8A3E2C20E24239B5DB3532F91A8BC /* Pods-NAPA BILLINGTests-acknowledgements.markdown */,
+				A52B8594C01AC04CC32B5C93B6C8D32B /* Pods-NAPA BILLINGTests-acknowledgements.plist */,
+				78859F91649325016C93DE2311E2177F /* Pods-NAPA BILLINGTests-dummy.m */,
+				BC60AF73246FCAEBD9D56F00994965E7 /* Pods-NAPA BILLINGTests-frameworks.sh */,
+				A02CAD6D0F3823C3A3FEB97EEF776D2F /* Pods-NAPA BILLINGTests-resources.sh */,
+				F947D5901A162898B433D3028A735659 /* Pods-NAPA BILLINGTests-umbrella.h */,
+				5BB87D02A07465E7E171B5158B112CF0 /* Pods-NAPA BILLINGTests.debug.xcconfig */,
+				5605E659DFD7433259EAB9ED1F9BD232 /* Pods-NAPA BILLINGTests.release.xcconfig */,
+			);
+			name = "Pods-NAPA BILLINGTests";
+			path = "Target Support Files/Pods-NAPA BILLINGTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8824E82DC8228088B51D585FE596C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828D39A48FC2FD8DB417556D253C9A56 /* Alamofire.framework */,
+				88DD1FD75853C4763F1CE25AA9F51638 /* Pods_NAPA_BILLING.framework */,
+				3076AC19F4543E368FBC18302781A1EF /* Pods_NAPA_BILLINGTests.framework */,
+				8947F0CE940FE33E2C97D270D798D109 /* Pods_NAPA_BILLINGUITests.framework */,
+				D9CECEB7A259C21F9AE8AC84B6C687E0 /* SideMenuController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCACF4066D80C82D80D35666D5CD4D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6F08A0EF204A0CD9AF4176F52E21258 /* Alamofire */,
+				F80E966B2F32C9361AF9D7C10D5D9465 /* SideMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E95A3EA5BABBDCFC1E6F08A9DA3A0BE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47434A9E73F367A37970B1CF4A2E50A5 /* Info.plist */,
+				F809F02621B3DFF54129AD40EF87D55E /* SideMenuController.modulemap */,
+				6AA91D5129DA1C0A7DD3B0A786688B4C /* SideMenuController.xcconfig */,
+				9EA40888D1DE481417D09C838EC259E7 /* SideMenuController-dummy.m */,
+				073BBBFE184D060E472E415FB11DF92E /* SideMenuController-prefix.pch */,
+				F305AF42CCC23F9C3607583A3B13EC24 /* SideMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuController";
+			sourceTree = "<group>";
+		};
+		F6F08A0EF204A0CD9AF4176F52E21258 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				80C94B7E9BFAE2A07B497FB3EF43F9BC /* AFError.swift */,
+				FCACACBBA08843C8621A3DAF8A44D8CE /* Alamofire.swift */,
+				0E3C95B676ED1B36C2A04BA59BE7BF3D /* DispatchQueue+Alamofire.swift */,
+				D7DEF059059E788829584DFC6A203BBB /* MultipartFormData.swift */,
+				49009958D596B03FFA7941888905692F /* NetworkReachabilityManager.swift */,
+				F1FF2B1BFF7DF3999B56684866028DC0 /* Notifications.swift */,
+				E880C0D4C7CA9E267297CA555ADC8F3B /* ParameterEncoding.swift */,
+				2E57D39FC057F53F9382FFE1178E1EBF /* Request.swift */,
+				E1B94ABCDB1DF4E11D7AA0B35BF196D0 /* Response.swift */,
+				A920F691804E43BA523EC8516C6DDEBB /* ResponseSerialization.swift */,
+				8B4F02792DB4D8344246365AE50E593C /* Result.swift */,
+				8805B1D08E6F3490045DB41BD3D7887B /* ServerTrustPolicy.swift */,
+				01F63A5C154B9F1A9E1148D7D4A6D4A7 /* SessionDelegate.swift */,
+				38A2C931FCC3CB83DBD6C6880A5EC161 /* SessionManager.swift */,
+				5B506C98D94E4D8DA02AB0736AFD1C8F /* TaskDelegate.swift */,
+				4C0B528C26DFFBF2D2FC2B4089091393 /* Timeline.swift */,
+				CC5FBBA8021A922B924A7B203FA72EF1 /* Validation.swift */,
+				A30FAF3AEE5F19EAFA6928903D282531 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		F80E966B2F32C9361AF9D7C10D5D9465 /* SideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AE0187058B40BF8B4DE3901A4FA6E /* CenterContainmentSegue.swift */,
+				DE93428515A1677E78F01657A343E4D2 /* SideContainmentSegue.swift */,
+				483D88CB4157641114ED2E833CDE111C /* SideMenuController.swift */,
+				94CF69522C729ED4DD8DE7046C459094 /* SideMenuController+CustomTypes.swift */,
+				C026C222D11E586E21FBE81805081922 /* SideMenuController+SideOver.swift */,
+				981129CA9830266D610B3ED121EDF108 /* SideMenuController+SideUnder.swift */,
+				FA1C13DD1BAB810D4029486F12CBEE16 /* TransitionAnimator.swift */,
+				0579644A7D752221717727F45A936F35 /* UIKitExtensions.swift */,
+				E95A3EA5BABBDCFC1E6F08A9DA3A0BE4 /* Support Files */,
+			);
+			path = SideMenuController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		516DE7E44301470A71141D031FF18831 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3F49FC1EC360E959E0FA72B61512D /* Pods-NAPA BILLINGTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A806CD5ADF09F220A0AA026E2AAE43B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1755372277B0CF97F1CC59EAE9AA28DD /* Pods-NAPA BILLINGUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0950F457A991E55CB7A3AC06E5E3551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011BA89FDC7B818C0C524F26BF9167B /* SideMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3623958832AB5FD84D32E95AE94BA99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47811A0C77F054DF6379672745ABCB0E /* Pods-NAPA BILLING-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		042ACD5FBC280AB53786A252671AC92A /* Pods-NAPA BILLINGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672D438F914BB5A86A814BAA69013F91 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLINGTests" */;
+			buildPhases = (
+				F3D604E1D1812E01278E03032FC74D98 /* Sources */,
+				A1C36F322369B0B360772888057454D4 /* Frameworks */,
+				516DE7E44301470A71141D031FF18831 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NAPA BILLINGTests";
+			productName = "Pods-NAPA BILLINGTests";
+			productReference = 3076AC19F4543E368FBC18302781A1EF /* Pods_NAPA_BILLINGTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26D98B0294F9A09CBD6233BFD6A080D0 /* Pods-NAPA BILLING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878481367A2D213255610CEDBD2E0D63 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLING" */;
+			buildPhases = (
+				0BFF042879D0F3C954A76D18208F16EC /* Sources */,
+				545E966D9B9347DE55349868326738BC /* Frameworks */,
+				E3623958832AB5FD84D32E95AE94BA99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A90C215EE68879F257A24E759C4E0A /* PBXTargetDependency */,
+				D32D86EE0A339858C32DAE0E9DACEDEF /* PBXTargetDependency */,
+			);
+			name = "Pods-NAPA BILLING";
+			productName = "Pods-NAPA BILLING";
+			productReference = 88DD1FD75853C4763F1CE25AA9F51638 /* Pods_NAPA_BILLING.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E775923A6EDEF7BFD8397D3678AE79B /* SideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C7641CA8AC057A30403AEC3C9228C4 /* Build configuration list for PBXNativeTarget "SideMenuController" */;
+			buildPhases = (
+				52E35171B511588B8BD8081A612C477F /* Sources */,
+				D7982208D0E8AE0250D7434961AA7230 /* Frameworks */,
+				A0950F457A991E55CB7A3AC06E5E3551 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuController;
+			productName = SideMenuController;
+			productReference = D9CECEB7A259C21F9AE8AC84B6C687E0 /* SideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				120C4E824DDCCA024C170A491FF221A5 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 828D39A48FC2FD8DB417556D253C9A56 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC6B0B87E73D6FEACDD29B3B2272EDB1 /* Pods-NAPA BILLINGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63B39EB3766990A60C56640C70C5107 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLINGUITests" */;
+			buildPhases = (
+				8AD67161BAC5C004BBC0251DE692E36B /* Sources */,
+				F14A5B70F5E7C70E9E91A6425ED0B2FE /* Frameworks */,
+				7A806CD5ADF09F220A0AA026E2AAE43B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NAPA BILLINGUITests";
+			productName = "Pods-NAPA BILLINGUITests";
+			productReference = 8947F0CE940FE33E2C97D270D798D109 /* Pods_NAPA_BILLINGUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					26D98B0294F9A09CBD6233BFD6A080D0 = {
+						LastSwiftMigration = 0820;
+					};
+					5E775923A6EDEF7BFD8397D3678AE79B = {
+						LastSwiftMigration = 0820;
+					};
+					79C040AFDDCE1BCBF6D8B5EB0B85887F = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D8824E82DC8228088B51D585FE596C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				26D98B0294F9A09CBD6233BFD6A080D0 /* Pods-NAPA BILLING */,
+				042ACD5FBC280AB53786A252671AC92A /* Pods-NAPA BILLINGTests */,
+				CC6B0B87E73D6FEACDD29B3B2272EDB1 /* Pods-NAPA BILLINGUITests */,
+				5E775923A6EDEF7BFD8397D3678AE79B /* SideMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BFF042879D0F3C954A76D18208F16EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940D81E48C408A7C48EC266A6A568F40 /* Pods-NAPA BILLING-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C4E824DDCCA024C170A491FF221A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143065F94E53F437DCE5D7A998D66D /* AFError.swift in Sources */,
+				8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */,
+				7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */,
+				E2A1C34237B4E928E5F85C097F4C2551 /* DispatchQueue+Alamofire.swift in Sources */,
+				C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */,
+				E59BF19C0AFA68B741552319FC478C7B /* NetworkReachabilityManager.swift in Sources */,
+				0C1B4E9FFB8B81E8833A3BAD537B1990 /* Notifications.swift in Sources */,
+				AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */,
+				12118C354EFA36292F82A8D0CFCE45B2 /* Request.swift in Sources */,
+				86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */,
+				B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */,
+				DF1BBF94997A2F4248B42B25EA919EC2 /* Result.swift in Sources */,
+				C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */,
+				907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */,
+				A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */,
+				E1F583CB4A68A928CD197250AA752926 /* TaskDelegate.swift in Sources */,
+				3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */,
+				FFFDD494EE6D1B83DDAF5F2721F685A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E35171B511588B8BD8081A612C477F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E730588B762ADF345FBBA3EB7B509C /* CenterContainmentSegue.swift in Sources */,
+				5F1F216BB0867E196AC70F60A12938EF /* SideContainmentSegue.swift in Sources */,
+				ADB9BF4491A232E92D5900D832D681F6 /* SideMenuController+CustomTypes.swift in Sources */,
+				5CA57BCE8FF5875B81C1D70ED257F6E7 /* SideMenuController+SideOver.swift in Sources */,
+				5371089264CFF87C7DF2AA2845A2AB89 /* SideMenuController+SideUnder.swift in Sources */,
+				E8F016D2866921DB98292D074FE8C1A7 /* SideMenuController-dummy.m in Sources */,
+				CC52169F7E952919706AB8D24F275E8B /* SideMenuController.swift in Sources */,
+				D02A3E1AE5328F8917E0CC937C883AE1 /* TransitionAnimator.swift in Sources */,
+				92A67E068A7416D5EC784EEDE21734BB /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD67161BAC5C004BBC0251DE692E36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5BEC399521C871B30ECDB7420F42D7 /* Pods-NAPA BILLINGUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D604E1D1812E01278E03032FC74D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2190E01472E6CAD06B56A106383F73A /* Pods-NAPA BILLINGTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A90C215EE68879F257A24E759C4E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 08A769303718539DEEE69C1DC2B03D04 /* PBXContainerItemProxy */;
+		};
+		D32D86EE0A339858C32DAE0E9DACEDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuController;
+			target = 5E775923A6EDEF7BFD8397D3678AE79B /* SideMenuController */;
+			targetProxy = D28AC440D1EFB819C127E635747A406A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1982DC2FE32977F9D5F17889EF832CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5605E659DFD7433259EAB9ED1F9BD232 /* Pods-NAPA BILLINGTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLINGTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLINGTests/Pods-NAPA BILLINGTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLINGTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27334B28B6473158D5600A4FAC1BDD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD3154F2768DDA132CD13ACD049FFAE /* Pods-NAPA BILLING.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLING/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLING/Pods-NAPA BILLING.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLING;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB14BCBC8845519DE07B3E865DFA20D1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C373D72FEF4A74140C2E9735531C9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1F8431D8F15F851EF511456305BC89 /* Pods-NAPA BILLINGUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLINGUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLINGUITests/Pods-NAPA BILLINGUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLINGUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F77146CC70F14BDE8E516845EC5BBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8430D018A9395DDC9E8FC258AA296946 /* Pods-NAPA BILLINGUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLINGUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLINGUITests/Pods-NAPA BILLINGUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLINGUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB14BCBC8845519DE07B3E865DFA20D1 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D4084B310DCBACBAC7C677ABCE71BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB87D02A07465E7E171B5158B112CF0 /* Pods-NAPA BILLINGTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLINGTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLINGTests/Pods-NAPA BILLINGTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLINGTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED626B61179B3CD8D9A6B8A5BC14CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA91D5129DA1C0A7DD3B0A786688B4C /* SideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA29D58BF65644C01E96EFC1853A77B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA91D5129DA1C0A7DD3B0A786688B4C /* SideMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F77BCFD56801EFB84382F5F12C90D282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2B73E03534C3C6F85683DB61B44445 /* Pods-NAPA BILLING.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NAPA BILLING/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NAPA BILLING/Pods-NAPA BILLING.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NAPA_BILLING;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75218111E718FACE36F771E8ABECDB62 /* Debug */,
+				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672D438F914BB5A86A814BAA69013F91 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLINGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4084B310DCBACBAC7C677ABCE71BDB /* Debug */,
+				1982DC2FE32977F9D5F17889EF832CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C7641CA8AC057A30403AEC3C9228C4 /* Build configuration list for PBXNativeTarget "SideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA29D58BF65644C01E96EFC1853A77B6 /* Debug */,
+				CED626B61179B3CD8D9A6B8A5BC14CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878481367A2D213255610CEDBD2E0D63 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27334B28B6473158D5600A4FAC1BDD64 /* Debug */,
+				F77BCFD56801EFB84382F5F12C90D282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63B39EB3766990A60C56640C70C5107 /* Build configuration list for PBXNativeTarget "Pods-NAPA BILLINGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C373D72FEF4A74140C2E9735531C9C3 /* Debug */,
+				4F77146CC70F14BDE8E516845EC5BBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
